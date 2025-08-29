@@ -1,14 +1,14 @@
 
 const services = [
-  { id:'nat', name:'National Emergency Number', en:'National Emergency', number:'999', category:'All', icon:'☎️' },
+  { id:'nat', name:'National Emergency Number', en:'National Emergency', number:'999', category:'All', icon:'🚨' },
   { id:'pol', name:'Police Helpline Number', en:'Police', number:'999', category:'Police', icon:'👮' },
   { id:'fire', name:'Fire Service Number', en:'Fire Service', number:'999', category:'Fire', icon:'🚒' },
   { id:'amb', name:'Ambulance Service', en:'Ambulance', number:'1994-999999', category:'Health', icon:'🚑' },
-  { id:'wcc', name:'Women & Child Helpline', en:'Women & Child Helpline', number:'109', category:'Help', icon:'👩‍👧' },
-  { id:'acc', name:'Anti-Corruption Helpline', en:'Anti-Corruption', number:'106', category:'Govt.', icon:'🛡️' },
-  { id:'elec', name:'Electricity Helpline', en:'Electricity Outage', number:'16216', category:'Electricity', icon:'⚡' },
-  { id:'brac', name:'Brac Helpline', en:'Brac', number:'16445', category:'NGO', icon:'🏥' },
-  { id:'rail', name:'Bangladesh Railway Helpline', en:'Bangladesh Railway', number:'163', category:'Travel', icon:'🚆' },
+  { id:'wcc', name:'Women & Child Helpline', en:'Women & Child Helpline', number:'109', category:'Help', icon:'🚨' },
+  { id:'acc', name:'Anti-Corruption Helpline', en:'Anti-Corruption', number:'106', category:'Govt.', icon:'🚨' },
+  { id:'elec', name:'Electricity Helpline', en:'Electricity Outage', number:'16216', category:'Electricity', icon:'🚨' },
+  { id:'brac', name:'Brac Helpline', en:'Brac', number:'16445', category:'NGO', icon:'🚨' },
+  { id:'rail', name:'Bangladesh Railway Helpline', en:'Bangladesh Railway', number:'163', category:'Travel', icon:'🚨' },
 ];
 
 let hearts = 0, coins = 100, copies = 0;
@@ -66,7 +66,7 @@ function renderCards(){
     card.innerHTML = `
       
       <div class="icon">${s.icon}</div>
-      <div class="badge-top"><button class="heart-btn">💗</button></div>
+      <div class="badge-top"><button class="heart-btn">♡</button></div>
       
       <div class="head">
         
