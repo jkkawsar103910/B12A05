@@ -23,7 +23,7 @@ body {
   max-width:1200px; margin:auto; padding:10px 16px;
   display:flex; align-items:center; justify-content:space-between;
 }
-.brand { display:flex; align-items:center; gap:100px; }
+.brand { display:flex; align-items:center; gap:10px; color: green; }
 .logo {
   width:34px; height:34px; border-radius:50%;
   display:grid; place-items:center; font-weight:800;
@@ -32,8 +32,9 @@ body {
 .logo img{
   width: 34px;
   height: 34px;
+
 }
-.title { font-weight:800; }
+.title { font-weight:800;  }
 .nav-right { display:flex; gap:8px; }
 .pill {
   display:flex; align-items:center; gap:6px;
