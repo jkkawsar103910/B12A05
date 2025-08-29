@@ -1,7 +1,6 @@
 
 const services = [
-  { id:'nat', name:'National Emergency Number', en:'National Emergency', number:'999', category:'All', icon: '/images/emergency.png'
-   },
+  { id:'nat', name:'National Emergency Number', en:'National Emergency', number:'999', category:'All', icon:'☎️' },
   { id:'pol', name:'Police Helpline Number', en:'Police', number:'999', category:'Police', icon:'👮' },
   { id:'fire', name:'Fire Service Number', en:'Fire Service', number:'999', category:'Fire', icon:'🚒' },
   { id:'amb', name:'Ambulance Service', en:'Ambulance', number:'1994-999999', category:'Health', icon:'🚑' },
